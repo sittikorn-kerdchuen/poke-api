@@ -10,7 +10,7 @@ function Icons() {
     ]
 
     return (
-        <button onClick={() => likePoke()}> {like ? <FaHeart /> : <FaRegHeart />} </button>
+        <button onClick={() => likePoke()}> {like ? <FaHeart style={{color : "red"}} /> : <FaRegHeart />} </button>
     )
 }
 
